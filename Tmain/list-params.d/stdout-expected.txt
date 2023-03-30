@@ -8,6 +8,9 @@ CPreProcessor  _expand           expand macros if their definitions are in the c
 CPreProcessor  define            define replacement for an identifier (name(params,...)=definition)
 CPreProcessor  if0               examine code within "#if 0" branch (true or [false])
 CPreProcessor  ignore            a token to be specially handled
+Extern         kinds             define and configure parser-specific kinds (string)
+Extern         parser            set the parser command (string)
+Extern         xformat           set the Xref output format (string)
 Fypp           guest             parser run after Fypp parser parses the original input ("NONE" or a parser name [Fortran])
 ITcl           forceUse          enable the parser even when `itcl' namespace is not specified in the input (true or [false])
 TclOO          forceUse          enable the parser even when `oo' namespace is not specified in the input (true or [false])
@@ -22,6 +25,9 @@ CPreProcessor	_expand	expand macros if their definitions are in the current C/C+
 CPreProcessor	define	define replacement for an identifier (name(params,...)=definition)
 CPreProcessor	if0	examine code within "#if 0" branch (true or [false])
 CPreProcessor	ignore	a token to be specially handled
+Extern	kinds	define and configure parser-specific kinds (string)
+Extern	parser	set the parser command (string)
+Extern	xformat	set the Xref output format (string)
 Fypp	guest	parser run after Fypp parser parses the original input ("NONE" or a parser name [Fortran])
 ITcl	forceUse	enable the parser even when `itcl' namespace is not specified in the input (true or [false])
 TclOO	forceUse	enable the parser even when `oo' namespace is not specified in the input (true or [false])
@@ -35,6 +41,9 @@ CPreProcessor	_expand	expand macros if their definitions are in the current C/C+
 CPreProcessor	define	define replacement for an identifier (name(params,...)=definition)
 CPreProcessor	if0	examine code within "#if 0" branch (true or [false])
 CPreProcessor	ignore	a token to be specially handled
+Extern	kinds	define and configure parser-specific kinds (string)
+Extern	parser	set the parser command (string)
+Extern	xformat	set the Xref output format (string)
 Fypp	guest	parser run after Fypp parser parses the original input ("NONE" or a parser name [Fortran])
 ITcl	forceUse	enable the parser even when `itcl' namespace is not specified in the input (true or [false])
 TclOO	forceUse	enable the parser even when `oo' namespace is not specified in the input (true or [false])

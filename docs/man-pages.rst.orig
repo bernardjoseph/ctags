@@ -32,6 +32,5 @@ Man pages
 	ctags-lang-systemtap(7) <man/ctags-lang-systemtap.7.rst>
 	ctags-lang-tcl(7) <man/ctags-lang-tcl.7.rst>
 	ctags-lang-verilog(7) <man/ctags-lang-verilog.7.rst>
-	ctags-externalparser(7) <man/ctags-externalparser.7.rst>
 
 	readtags(1) <man/readtags.1.rst>

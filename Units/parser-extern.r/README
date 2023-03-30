@@ -1,0 +1,3 @@
+The tests run dummy parsers, which depend on the operating system.  On
+Linux and macOS, use parser.sh; on Windows, use parser.cmd.  By
+default, the tests are disabled.

@@ -1,0 +1,6 @@
+Unit test for a kind prefix
+---------------------------
+First link.
+Second link.
+First keyword.
+Second keyword.

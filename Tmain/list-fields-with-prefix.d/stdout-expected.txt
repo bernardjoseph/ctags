@@ -20,6 +20,8 @@ x       UCTAGSxpath          no      NONE             s--    no    -- xpath for 
 -       UCTAGSmacrodef       no      CUDA             s--    no    -- macro definition
 -       UCTAGSproperties     no      CUDA             s--    no    -- properties (static, inline, mutable,...)
 -       UCTAGSmoduleName     yes     Elm              s--    no    -- actual name of renamed module
+-       UCTAGSencodedName    no      Extern           s--    no    -- encoded tag name
+-       UCTAGSsummary        no      Extern           s--    no    -- summary line
 -       UCTAGSannotations    yes     GDScript         s--    no    -- annotations on functions and variables
 -       UCTAGShowImported    no      Go               s--    no    -- how the package is imported ("inline" for `.' or "init" for `_')
 -       UCTAGSpackage        yes     Go               s--    no    -- the real package specified by the package name

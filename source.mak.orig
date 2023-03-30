@@ -432,11 +432,6 @@ XML_SRCS = \
 	\
 	$(NULL)
 
-JANSSON_SRCS = \
-	parsers/externalparser.c	\
-	\
-	$(NULL)
-
 YAML_HEADS = parsers/yaml.h
 YAML_SRCS = \
 	parsers/yaml.c		\

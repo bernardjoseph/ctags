@@ -48,6 +48,7 @@ endif
 ifeq (yes, $(WITH_JSON))
 CFLAGS += -DHAVE_JANSSON=1 $(shell pkg-config --cflags jansson)
 LIBS += $(shell pkg-config --libs jansson)
+PARSER_SRCS += $(JANSSON_SRCS)
 endif
 
 ifdef DEBUG

@@ -1,0 +1,5 @@
+Unit%20test%20for%20a%20kind%20prefix title      def           1 input.txt Unit test for a kind prefix
+%21link          link       ref           3 input.txt First link.
+%6Cink           link       ref           4 input.txt Second link.
+likeyword        keyword    other         5 input.txt First keyword.
+likeyword        keyword    other         6 input.txt Second keyword.

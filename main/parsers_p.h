@@ -26,6 +26,13 @@
 #define XML_PARSER_LIST
 #endif
 
+#ifdef HAVE_JANSSON
+#define JANSSON_PARSER_LIST \
+	ExternParser
+#else
+#define JANSSON_PARSER_LIST
+#endif
+
 #ifdef HAVE_LIBYAML
 #define YAML_PARSER_LIST						\
 	YamlParser,									\

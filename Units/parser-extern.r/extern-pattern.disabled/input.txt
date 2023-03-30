@@ -1,0 +1,6 @@
+Unit test for a tag pattern
+---------------------------
+First link\.
+Second link/.
+First ^^keyword.
+Second keyword//.

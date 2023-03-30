@@ -412,7 +412,6 @@ The following parsers have been added:
 * DTS
 * Elixir *optlib*
 * Elm *peg/packcc*
-* Extern *jansson*
 * Falcon
 * FrontMatter *only YAML syntax, running as a guest on R?Markdown*
 * FunctionParameters *Perl based subparser*

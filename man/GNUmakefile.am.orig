@@ -27,7 +27,6 @@ GEN_IN_MAN_FILES = \
 	ctags-client-tools.7 \
 	ctags-faq.7 \
 	\
-	ctags-externalparser.7 \
 	ctags-lang-asm.7 \
 	ctags-lang-elm.7 \
 	ctags-lang-fortran.7 \

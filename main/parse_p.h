@@ -52,6 +52,9 @@ extern parserDefinitionFunc PARSER_LIST;
 #ifdef HAVE_LIBXML
 extern parserDefinitionFunc XML_PARSER_LIST;
 #endif
+#ifdef HAVE_JANSSON
+extern parserDefinitionFunc JANSSON_PARSER_LIST;
+#endif
 #ifdef HAVE_LIBYAML
 extern parserDefinitionFunc YAML_PARSER_LIST;
 #endif

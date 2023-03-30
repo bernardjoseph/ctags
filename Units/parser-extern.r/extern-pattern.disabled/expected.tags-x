@@ -1,0 +1,5 @@
+Unit%20test%20for%20a%20tag%20pattern title      def           1 input.txt Unit test for a tag pattern
+link\            link       ref           3 input.txt /link\\/
+link/            link       ref           4 input.txt /link\//
+^^keyword        keyword    other         5 input.txt /\^^keywo/
+keyword//        keyword    other         6 input.txt /keyword/

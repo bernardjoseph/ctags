@@ -139,6 +139,10 @@ static parserDefinitionFunc* BuiltInParsers[] = {
 #ifdef HAVE_LIBXML
 	,
 #endif
+	JANSSON_PARSER_LIST
+#ifdef HAVE_JANSSON
+	,
+#endif
 	YAML_PARSER_LIST
 #ifdef HAVE_LIBYAML
 	,

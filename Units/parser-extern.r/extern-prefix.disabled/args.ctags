@@ -1,0 +1,10 @@
+--language-force=Extern
+--sort=no
+--fields=+r
+--extras=+r
+--_xformat=overwritten by --param-Extern.xformat
+--kinds-Extern=*
+--param-Extern.parser=./Units/parser-extern.r/extern-prefix.d/parser.sh
+#--param-Extern.parser=.\Units\parser-extern.r\extern-prefix.d\parser.cmd
+--param-Extern.xformat=%-16{Extern.encodedName} %-10z %-10r %4n %-16F %{Extern.summary}
+--param-Extern.kinds=title:t:def::,link:l:ref::,keyword:k:other:li:
